@@ -35,12 +35,12 @@ include 'content/functions/delete_user_data.php';
  
  <script>
      
-//   document.getElementById("myButton").onclick = function () {
-//         location.href = "index.php";
-//     };
-//     document.getElementById("okBtn").onclick = function () {
-//         location.href = "index.php";
-//     };
+  document.getElementById("myButton").onclick = function () {
+        location.href = "index.php";
+    };
+    document.getElementById("okBtn").onclick = function () {
+        location.href = "index.php";
+    };
 
     // Get the modal
 var modal = document.getElementById("myModal");
