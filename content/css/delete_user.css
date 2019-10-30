@@ -1,1 +1,77 @@
-/* No CSS *//*# sourceMappingURL=delete_user.css.map */
+body {
+  width: 80%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 600px;
+  height: 400px;
+  background-color: #f9f9f9;
+  position: relative;
+  left: 10%;
+  margin: auto;
+  margin-top: 20px;
+  -webkit-box-shadow: -5px 4px 41px -19px rgba(0, 0, 0, 0.75);
+          box-shadow: -5px 4px 41px -19px rgba(0, 0, 0, 0.75);
+}
+
+.container_content {
+  border: 1px solid black;
+  padding: 1em;
+  width: 300px;
+  position: absolute;
+  left: 20%;
+  top: 35%;
+  background-color: white;
+  -webkit-box-shadow: -5px 4px 41px -19px rgba(0, 0, 0, 0.75);
+          box-shadow: -5px 4px 41px -19px rgba(0, 0, 0, 0.75);
+}
+
+.container_wrapper {
+  position: absolute;
+  left: 37%;
+  top: 55%;
+}
+
+.container_wrapper-del_btn {
+  padding: 0.8em;
+  color: #00ff80;
+  background-color: white;
+  border-radius: 10px;
+  margin: 1em;
+  cursor: pointer;
+}
+
+.container_wrapper-cancel_btn {
+  padding: 0.8em;
+  color: #e62c14;
+  background-color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 23%;
+  top: 0;
+  width: 50%;
+  height: 50%;
+  overflow: auto;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  text-align: center;
+}
+/*# sourceMappingURL=delete_user.css.map */

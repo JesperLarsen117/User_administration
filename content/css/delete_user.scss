@@ -1,0 +1,84 @@
+@import 'main';
+
+body{
+    width: 80%;
+
+    margin: 0;
+    padding: 0;
+  
+}
+
+.container{
+    width: 600px;
+    height: 400px;
+    background-color: $backgroundColor;
+    position: relative;
+    left: 10%;
+    margin: auto;
+    margin-top: 20px;
+    
+
+    box-shadow:-5px 4px 41px -19px rgba(0,0,0,0.75);
+
+    &_content{
+        border: 1px solid black;
+        padding: 1em;
+        width: 300px;
+        position: absolute;
+       left: 20%;
+       top: 35%;
+       background-color: white;
+       box-shadow:-5px 4px 41px -19px rgba(0,0,0,0.75);
+
+    }
+
+    &_wrapper{
+        position: absolute;
+        left: 37%;
+        top: 55%;
+        &-del_btn{
+            padding: 0.8em;
+            color: $primaryColor;
+            background-color: white;
+            border-radius: 10px;
+            margin: 1em;
+            cursor: pointer;
+        
+           
+        }
+        &-cancel_btn{
+            padding: 0.8em;
+            color:  $secondaryColor;
+            background-color: white;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+      
+    }
+ }
+
+ .modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 23%;
+    top: 0;
+    width: 50%;
+    height: 50%;
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    text-align: center;
+  }
+  
+
