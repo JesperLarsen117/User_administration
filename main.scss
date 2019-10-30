@@ -1,0 +1,17 @@
+// Confirm buttons.
+$primaryColor: #00ff80;
+// Cancel buttons.
+$secondaryColor: #e62c14;
+// Text color.
+$textColor: #202020;
+// background color.
+$backgroundColor: #f9f9f9;
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $backgroundColor;
+}
