@@ -6,7 +6,12 @@ $secondaryColor: #e62c14;
 $textColor: #202020;
 // background color.
 $backgroundColor: #f9f9f9;
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-// body {
-//     background-color: $backgroundColor;
-// }
+body {
+    background-color: $backgroundColor;
+}
