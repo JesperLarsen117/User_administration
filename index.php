@@ -1,6 +1,3 @@
-<?php
-include 'content/functions/get_user_data.php';
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,8 +7,15 @@ include 'content/functions/get_user_data.php';
     <title>Document</title>
     <link rel="stylesheet" href="content/css/main.css">
     <link rel="stylesheet" href="content/css/index.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
 <body>
-    
+<section class="user" id="user">
+<?php
+include 'content/functions/get_user_data.php';
+?>
+</section>
+<script src="content/javascript/main.js"></script>
 </body>
 </html>
