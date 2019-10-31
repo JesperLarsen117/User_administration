@@ -12,6 +12,7 @@
 </head>
 <body>
 <div class="container">
+    <h1 class="container-header">Delete user</h1>
 <?php
 include 'content/functions/delete_user_data.php';
 ?>

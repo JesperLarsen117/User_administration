@@ -22,10 +22,11 @@ body{
 
     &_content{
         border: 1px solid black;
+        border-radius: 7px;
         padding: 1em;
         width: 300px;
         position: absolute;
-       left: 20%;
+       left: 22%;
        top: 35%;
        background-color: white;
        box-shadow:-5px 4px 41px -19px rgba(0,0,0,0.75);
@@ -58,6 +59,12 @@ body{
             
         }
       
+    }
+    &-header{
+        position: absolute;
+        left: 36%;
+        top: 8%;
+
     }
  }
 
