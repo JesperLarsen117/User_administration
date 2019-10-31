@@ -1,0 +1,47 @@
+// Confirm buttons.
+$primaryColor: #00ff80;
+// Cancel buttons.
+$secondaryColor: #e62c14;
+// Text color.
+$textColor: #202020;
+// background color.
+$backgroundColor: #f9f9f9;
+
+body {
+    background-color: $backgroundColor;
+}
+
+h1{
+    text-align: center;
+}
+
+form{
+    padding: 1em;
+    border: #202020 solid 2px;
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+}
+
+form input{
+    width: 88%;
+    padding: 12px 20px;
+    border-radius: 12px;
+    
+}
+
+#name, #email, #pass{
+    margin-top: 1em;
+}
+
+a {
+    color: $secondaryColor;
+    margin-top: 1em;
+}
+
+.create{
+    background-color: $primaryColor;
+    display: inline-block;
+    margin: 2em;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
