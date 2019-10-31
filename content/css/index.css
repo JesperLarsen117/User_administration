@@ -1,0 +1,172 @@
+body {
+  background-color: #f9f9f9;
+}
+
+* {
+  border: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+p {
+  color: #202020;
+  display: block;
+  -webkit-margin-before: 1em;
+          margin-block-start: 1em;
+  -webkit-margin-after: 1em;
+          margin-block-end: 1em;
+  -webkit-margin-start: 0px;
+          margin-inline-start: 0px;
+  -webkit-margin-end: 0px;
+          margin-inline-end: 0px;
+}
+
+.search__form #search {
+  width: 100%;
+  border: 1px solid #202020;
+  padding: 1em;
+}
+
+.columns {
+  display: -ms-grid;
+  display: grid;
+  padding: .6em;
+  -ms-grid-columns: 1fr 1fr 1fr 10% 10%;
+      grid-template-columns: 1fr 1fr 1fr 10% 10%;
+  border-bottom: 1px solid black;
+}
+
+.columns p {
+  font-weight: bold;
+}
+
+.user {
+  padding: 1em;
+  width: 60%;
+  margin: 1em auto;
+  background-color: white;
+  -webkit-box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.2);
+}
+
+.user__row {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 10% 10%;
+      grid-template-columns: 1fr 1fr 1fr 10% 10%;
+  border-bottom: 1px solid #ebebeb;
+  padding: .6em;
+}
+
+.user__row:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+.user__edit {
+  color: #139745;
+  padding-top: .6em;
+  margin-left: .4em;
+}
+
+.user__delete {
+  color: #e62c14;
+  padding-top: .6em;
+  margin-left: 1em;
+}
+
+.page__wrapper {
+  margin-top: 1em;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 1fr;
+      grid-template-columns: auto 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page__number-wrapper {
+  -ms-grid-column-align: end;
+      justify-self: end;
+}
+
+.page__change-btn {
+  display: inline-block;
+  border: 1px solid black;
+  width: auto;
+  height: 2em;
+  text-align: center;
+  padding: .4em .4em;
+  margin: 0 .2em;
+  color: #202020;
+  text-decoration: none;
+}
+
+.page__number {
+  display: inline-block;
+  border: 1px solid black;
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  padding: .4em 0;
+  margin: 0 .2em;
+  color: #202020;
+  text-decoration: none;
+}
+
+.active {
+  display: inline-block;
+  color: #139745;
+  border: 2px solid #139745;
+}
+
+.new__user {
+  display: inline-block;
+  text-decoration: none;
+  color: #139745;
+  padding: 0.6em;
+  border: 2px solid #139745;
+}
+
+.confirmation__message {
+  position: absolute;
+  padding: 1em;
+  top: 1em;
+  width: 90%;
+  color: white;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background-color: #139745;
+  -webkit-animation: confirm_animation 400ms 2000ms ease-in-out forwards;
+          animation: confirm_animation 400ms 2000ms ease-in-out forwards;
+}
+
+.confirmation__message-delete {
+  position: absolute;
+  padding: 1em;
+  top: 1em;
+  width: 90%;
+  color: white;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background-color: #e62c14;
+  -webkit-animation: confirm_animation 400ms 2000ms ease-in-out forwards;
+          animation: confirm_animation 400ms 2000ms ease-in-out forwards;
+}
+
+@-webkit-keyframes confirm_animation {
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes confirm_animation {
+  to {
+    opacity: 0;
+  }
+}
+/*# sourceMappingURL=index.css.map */

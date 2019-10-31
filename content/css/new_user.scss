@@ -1,0 +1,70 @@
+// Confirm buttons.
+$primaryColor: #139745;
+// Cancel buttons.
+$secondaryColor: #e62c14;
+// Text color.
+$textColor: #202020;
+// background color.
+$backgroundColor: #f9f9f9;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: $backgroundColor;
+}
+
+h1{
+    grid-column: 1 / span 3;
+    margin: 1em;
+    text-align: center;
+}
+
+form{
+    padding: 1em;
+    width: 60%;
+    margin: 2em auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+    background-color: white;
+    box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.2);
+}
+
+form input{
+    padding: 12px 20px;
+}
+
+#name, #email, #pass{
+    // margin-top: 1em;
+}
+.input__wrapper {
+    grid-column: 1 / span 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+}
+a {
+    display: inline-block;
+    color: $secondaryColor;
+    border: 1px solid $secondaryColor;
+    margin: .5em;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+.create{
+    background-color: $primaryColor;
+    color: white;
+    margin: .5em;
+    padding: 0.8em 1.2em !important;
+    border: unset;
+    cursor: pointer;
+}
+.button__wrapper {
+    grid-column: 1 / span 3;
+    align-self: center;
+    justify-self: end;
+}
